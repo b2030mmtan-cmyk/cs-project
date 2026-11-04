@@ -1,11 +1,11 @@
-# CS3SY26_ProjectProposal by AlMendiza
+# CS3SY26_ProjectProposal by ErDelValle, ShRenacido, MiTan
 
 ## Project Proposal Template
 
 ### Project Title or Name of the Application	:
-### Section			   	      :
-### Group Members			    :
-### Date (Proposal Date)  :
+### Section			   	      :   9 - Magnesium
+### Group Members			    :   DEL VALLE, RENACIDO, TAN
+### Date (Proposal Date)  :   13 November 2026 
 
 ### Project Description:
 
