@@ -2,7 +2,7 @@
 
 ## Project Proposal Template
 
-### Project Title or Name of the Application	:
+### Decked Out!: Flashcard Study Buddy
 ### Section			   	      :   9 - Magnesium
 ### Group Members			    :   DEL VALLE, RENACIDO, TAN
 ### Date (Proposal Date)  :   13 November 2026 
@@ -10,7 +10,7 @@
 ### Project Description:
 
 - A brief summary of the project description and the need for it.
-
+  
 - Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
 
 - Include the description as well of your target demographics as the user of your application. 
