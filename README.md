@@ -53,9 +53,9 @@
   - (method): _displayQuestion()_
   - (method): _checkAnswer()_
     
-**Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
+- **Class Diagram**
+<img width="1245" height="864" alt="image" src="https://github.com/user-attachments/assets/1013fec8-8532-400b-b129-8dce636f6496" />
 
-![Sample Diagram](https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png)
 
 ### Goals:
 
