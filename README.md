@@ -59,10 +59,11 @@
 
 ### Goals:
 
-Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
+To develop an intuitive study companion and application that encourages learners organize and create custom flashcards, test their knowledge, and of course, improve long-term retention across any subject.
 
-- Objective 1:
-- Objective 2:
-- Objective n:
+- Objective 1: Build a user management system that allows learners to create, view, delete, and combine flashcard decks.
+- Objective 2: Implement deck management tools for adding, viewing, and removing individual cards in a collection.
+- Objective 3: Design a versatile card system supporting various question formats.
+- Objective 4: Develop an interactive quiz feature that checks user answers and provides immediate feedback to support active recall.
 
 [Click here for Rubrics and Sample projects](https://docs.google.com/document/d/1xKd1CqK6DcNWS2_oJPBNtY5n3I3Hqiw8FY3W295Iqfk/edit?usp=sharing)
