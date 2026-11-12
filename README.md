@@ -17,10 +17,21 @@
 - This program, **_Decked Out!_**, will help students and other learners in studying topics of their choosing by serving as an online application which can help store their flashcards and flashcard decks that they use in reviewing. Along with this, the users will be able to test themselves using these cards. The components (classes and their attributed and methods) are the following:
 - **User Class**
   - (atr): _username_
->> (atr): _grade_level_
->> (method): __
->> **Deck Class**
->> **Card Class**
+  - (atr): _gradeLevel_
+  - (method): _addDeck()_
+  - (method): _deleteDeck()_
+  - (method): _combineDeck()_
+- **Deck Class**
+  - (atr): _title_ 
+  - (atr): _cards_
+  - (method): _addCard()_
+  - (method): _deleteCard()_
+  - (method): _displayCards()_
+- **Card Class**
+  - (atr): _question_ 
+  - (atr): _answer_
+  - (method): _displayQuestion()_
+  - (method): _checkAnswer()_
 >> **Multiple Choice Card Class**
 >> **True or False Card Class**
 >> **Identification Card Class**
