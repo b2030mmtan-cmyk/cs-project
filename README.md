@@ -15,8 +15,8 @@
 - The description is then followed by the class diagram, depicting clearly what was described.
 
 - This program, **_Decked Out!_**, will help students and other learners in studying topics of their choosing by serving as an online application which can help store their flashcards and flashcard decks that they use in reviewing. Along with this, the users will be able to test themselves using these cards. The components (classes and their attributed and methods are the following):
-#**User Class**
->> (atr): _username_
+- **User Class**
+-- (atr): _username_
 >> (atr): _grade_level_
 >> (method): __
 >> **Deck Class**
