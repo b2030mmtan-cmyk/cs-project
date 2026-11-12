@@ -15,8 +15,9 @@
 - The description is then followed by the class diagram, depicting clearly what was described.
 
 - This program, **_Decked Out!_**, will help students and other learners in studying topics of their choosing by serving as an online application which can help store their flashcards and flashcard decks that they use in reviewing. Along with this, the users will be able to test themselves using these cards. The components (classes and their attributed and methods) are the following:
+  
 - **User Class**
-  - (atr): _username_
+  - (atr): _username_      #sizsiksjxd
   - (atr): _gradeLevel_
   - (method): _addDeck()_
   - (method): _deleteDeck()_
@@ -32,9 +33,25 @@
   - (atr): _answer_
   - (method): _displayQuestion()_
   - (method): _checkAnswer()_
->> **Multiple Choice Card Class**
->> **True or False Card Class**
->> **Identification Card Class**
+- **MulCho Card Class**
+  - (atr): _question_ 
+  - (atr): _answer_
+  - (atr): _options_
+  - (method): _displayQuestion()_
+  - (method): _checkAnswer()_
+  - (method): _displayOptions()_
+  - (method): _shuffleOptions()_
+- **True or False Class**
+  - (atr): _question_ 
+  - (atr): _answer_
+  - (method): _displayQuestion()_
+  - (method): _checkAnswer()_
+- **Identification Class**
+  - (atr): _question_ 
+  - (atr): _answer_
+  - (method): _displayQuestion()_
+  - (method): _checkAnswer()_
+    
 **Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
 
 ![Sample Diagram](https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png)
