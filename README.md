@@ -24,34 +24,34 @@
   - (method): _deleteDeck()_ - Pops the index (number - 1) of a user's chosen deck.
   - (method): _combineDeck()_ - Combines the questions of two decks into one deck.
 - **Deck Class**
-  - (atr): _title_ 
-  - (atr): _cards_
-  - (method): _addCard()_
-  - (method): _deleteCard()_
-  - (method): _displayCards()_
+  - (atr): _title_ - What the system will call the collection of cards, string input
+  - (atr): _cards_ - List of all cards a deck has.
+  - (method): _addCard()_ - Appends a card to the deck.
+  - (method): _deleteCard()_ - Pops the index (number - 1) of a user's chosen card.
+  - (method): _displayCards()_ - Displays all the cards of a deck in a formatted form using #. CardName, where the number is index + 1 to avoid starting with zero.
 - **Card Class**
-  - (atr): _question_ 
-  - (atr): _answer_
-  - (method): _displayQuestion()_
-  - (method): _checkAnswer()_
+  - (atr): _question_ - What the system will call the card (card title), string input; 
+  - (atr): _answer_ - Accepted value, inherited from Card Class
+  - (method): _displayQuestion()_ - Displays the question content and prompting the user to answer
+  - (method): _checkAnswer()_ - Compares input to accepted value (answer) and returns a remark on the result
 - **MulCho Card Class**
-  - (atr): _question_ 
-  - (atr): _answer_
-  - (atr): _options_
-  - (method): _displayQuestion()_
-  - (method): _checkAnswer()_
-  - (method): _displayOptions()_
-  - (method): _shuffleOptions()_
+  - (atr): _question_ - Card title, inherited from Card Class
+  - (atr): _answer_ - Accepted value, inherited from Card Class
+  - (atr): _options_ - List of all values the user must choose from.
+  - (method): _displayQuestion()_ - Displays the question content and prompting the user to answer, inherited from Card Class
+  - (method): _checkAnswer()_ - Compares input to accepted value (answer) and returns a remark on the result, inherited from Card Class
+  - (method): _displayOptions()_ - Displays all choices the user can choose from
+  - (method): _shuffleOptions()_ - Scrambles the order in which choices are displayed
 - **True or False Class**
-  - (atr): _question_ 
-  - (atr): _answer_
-  - (method): _displayQuestion()_
-  - (method): _checkAnswer()_
+  - (atr): _question_ - Card title, inherited from Card Class
+  - (atr): _answer_ - Accepted value, inherited from Card Class
+  - (method): _displayQuestion()_ - Displays the question content and prompting the user to answer, inherited from Card Class
+  - (method): _checkAnswer()_ - Compares input to accepted value (answer) and returns a remark on the result, inherited from Card Class
 - **Identification Class**
-  - (atr): _question_ 
-  - (atr): _answer_
-  - (method): _displayQuestion()_
-  - (method): _checkAnswer()_
+  - (atr): _question_ - Card title, inherited from Card Class
+  - (atr): _answer_ - Accepted value, inherited from Card Class
+  - (method): _displayQuestion()_ - Displays the question content and prompting the user to answer, inherited from Card Class
+  - (method): _checkAnswer()_ - Compares input to accepted value (answer) and returns a remark on the result, inherited from Card Class
     
 - **Class Diagram**
 <img width="1245" height="864" alt="image" src="https://github.com/user-attachments/assets/1013fec8-8532-400b-b129-8dce636f6496" />
