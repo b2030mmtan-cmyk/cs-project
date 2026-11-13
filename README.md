@@ -19,10 +19,11 @@
 - **User Class**
   - (atr): _username_ - What the system will call the user, string input.
   - (atr): _decks_ - List of all decks a user has, starts as an empty list.
+  - (method): _studyDeck()_ - Starts a quiz which goes over all the elements of a certain deck, uses the methods of the card using duck typing based on the class of the card.
   - (method): _addDeck()_ - Appends a deck to the list.
   - (method): _displayDecks()_ - Displays all the decks of a user in a formatted form using N. DeckTitle, where the number (N) is index + 1 to avoid starting with zero.
   - (method): _deleteDeck()_ - Pops the index (N input - 1) of a user's chosen deck.
-  - (method): _combineDeck()_ - Combines the questions of two decks into one deck.
+  - (method): _combineDeck()_ - Combines the questions of two decks into one deck, the old decks are deleted.
 - **Deck Class**
   - (atr): _title_ - Title of the deck, string input.
   - (atr): _cards_ - List of all cards a deck has, starts as an empty list.
@@ -35,7 +36,7 @@
   - (atr): _answer_ - The correct answer of the question, string input.
   - (method): _displayQuestion()_ - Prints the question content and prompts the user to input their answer.
   - (method): _checkAnswer()_ - Compares answer input and the correct answer, and returns a remark based on the result (If correct, "Correct Answer!", if not, "Incorrect Answer!, the correct answer is" _answer_., 
-- **MulCho Card Class**
+- **Multiple Choice Card Class**
   - (atr): _question_ - Card question, inherited from Card Class
   - (atr): _answer_ - Correct answer, inherited from Card Class
   - (atr): _options_ - List of all values the user must choose from.
@@ -54,18 +55,18 @@
   - (method): _displayQuestion()_ - Displays the question content and prompting the user to answer, inherited from Card Class.
   - (method): _checkAnswer()_ - Compares input to accepted value (answer) and returns a remark on the result, inherited from Card Class. 
 - **Class Diagram**
-<img width="1245" height="864" alt="image" src="https://github.com/user-attachments/assets/1013fec8-8532-400b-b129-8dce636f6496" />
+<img width="1021" height="707" alt="image" src="https://github.com/user-attachments/assets/7655fd8d-c163-4a68-8eb0-391241f641e0" />
 - **Interactions**
   - User-Deck and Deck-Card has a one-to-many composition relationship.
-  - Card is the parent abstract class which MulCho Card, True or False Card, and Identification Card inherits.
+  - Card is the parent abstract class which Multiple Choice Card, True or False Card, and Identification Card inherits.
 
 ### Goals:
 
-To develop an intuitive study companion and application that encourages learners organize and create custom flashcards, test their knowledge, and of course, improve long-term retention across any subject.
+To develop an intuitive study companion and application that encourages learners to organize and create custom flashcards, test their knowledge, and of course, improve long-term retention across any subject.
 
 - Objective 1: Build a user management system that allows learners to create, view, delete, and combine flashcard decks.
 - Objective 2: Implement deck management tools for adding, viewing, and removing individual cards in a collection.
-- Objective 3: Design a versatile card system supporting various question formats.
+- Objective 3: Design a versatile card system supporting various question formats being multiple choice, true or false, and identification.
 - Objective 4: Develop an interactive quiz feature that checks user answers and provides immediate feedback to support active recall.
 
 [Click here for Rubrics and Sample projects](https://docs.google.com/document/d/1xKd1CqK6DcNWS2_oJPBNtY5n3I3Hqiw8FY3W295Iqfk/edit?usp=sharing)
