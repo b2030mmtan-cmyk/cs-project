@@ -56,6 +56,7 @@
   - (method): _checkAnswer()_ - Compares input to accepted value (answer) and returns a remark on the result, inherited from Card Class. 
 - **Class Diagram**
 <img width="1021" height="707" alt="image" src="https://github.com/user-attachments/assets/7655fd8d-c163-4a68-8eb0-391241f641e0" />
+
 - **Interactions**
   - User-Deck and Deck-Card has a one-to-many composition relationship.
   - Card is the parent abstract class which Multiple Choice Card, True or False Card, and Identification Card inherits.
