@@ -19,7 +19,7 @@
 - **User Class**
   - (atr): _username_ - What the system will call the user, string input.
   - (atr): _decks_ - List of all decks a user has, starts as an empty list.
-  - (method): _studyDeck()_ - Starts a quiz which goes over all the elements of a certain deck, uses the methods of the card using duck typing based on the class of the card.
+  - (method): _studyDeck()_ - Starts a quiz which goes over all the elements of a certain deck of choice, uses the methods of the card based on the class of the card.
   - (method): _addDeck()_ - Appends a deck to the list.
   - (method): _displayDecks()_ - Displays all the decks of a user in a formatted form using N. DeckTitle, where the number (N) is index + 1 to avoid starting with zero.
   - (method): _deleteDeck()_ - Pops the index (N input - 1) of a user's chosen deck.
@@ -35,7 +35,7 @@
   - (atr): _question_ - Question of the card that the system will prompt, string input.
   - (atr): _answer_ - The correct answer of the question, string input.
   - (method): _displayQuestion()_ - Prints the question content and prompts the user to input their answer.
-  - (method): _checkAnswer()_ - Compares answer input and the correct answer, and returns a remark based on the result (If correct, "Correct Answer!", if not, "Incorrect Answer!, the correct answer is" _answer_., 
+  - (method): _checkAnswer()_ - Compares answer input and the correct answer, and returns a remark based on the result. If correct, "Correct Answer!"; if not, "Incorrect! The correct answer is", [_answer_].
 - **Multiple Choice Card Class**
   - (atr): _question_ - Card question, inherited from Card Class
   - (atr): _answer_ - Correct answer, inherited from Card Class
